@@ -1,0 +1,16 @@
+$cyan : rgb(168, 205, 219);
+
+@import 'layout';
+@import 'header';
+@import 'footer';
+@import 'main';
+
+
+
+
+* {
+
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Open sans';
+}

@@ -1,0 +1,302 @@
+.main-image{
+    margin:0;
+    padding:0;
+    min-height:calc(100vh - 60px);
+    background-image: url("https://images.pexels.com/photos/33597/guitar-classical-guitar-acoustic-guitar-electric-guitar.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+
+
+
+
+    .main-info {
+
+        z-index:10;
+
+        width:900px;
+
+
+        
+        h1,h2 {
+            margin:1rem 0;
+            color:#fff;
+            font-weight: bold;
+            font-size:2.2rem;
+            font-family: Rubik, sans-serif;
+            letter-spacing: .1rem;
+         
+        }
+
+        h2 {
+            font-weight: normal;
+            font-size: 1.5rem;;
+        }
+
+    }
+
+    .overlay {
+
+
+
+        position:absolute;
+        min-height: inherit;
+        width:100%;
+        opacity: .4;
+        background-color: rgb(28, 71, 99);
+
+    }
+}
+
+/* Seccion media */
+
+
+.section-steps{
+
+    width:80%;
+    margin:0 auto;
+    margin-bottom:8rem;
+
+
+
+    .comienza {
+        text-align: center;
+        padding:8rem;
+        font-size:2rem;
+        font-family: Rubik, sans-serif;
+        color:$grey;
+    }
+
+    .pasos {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+
+        flex-wrap: wrap;
+
+        .paso {
+     
+
+            img {
+                width:250px;
+                height:auto;
+                padding:2rem 0;
+            }
+            text-align:start;
+
+            h3 {
+                font-size: 2rem;
+                color:$grey;
+                font-family: Rubik, sans-serif;
+        
+            }
+
+            p {
+                padding:1rem 0;
+                font-size: .9rem;
+                max-width:300px;
+                
+            }
+
+        }
+
+        .paso-1 {
+            padding:0 1rem;
+            img {
+                width:180px;
+    
+            }
+        }
+
+        .paso-2 {
+            margin-left:4rem;
+        }
+
+        .paso-3 {
+            
+            img {
+                width:300px;
+            }
+
+            h3 {
+                padding-top:1rem;
+            }
+        }
+    }
+
+    
+    
+}
+
+/* Instrumentos */
+
+.section-instrumentos {
+    width:80%;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom:5rem;
+
+    padding:5rem;
+
+    border:thin solid #ccc;
+    border-radius: .5rem;
+  
+
+    .instrumentos-title {
+        width:50%;
+        border-right:2px solid #000;
+        font-family: Rubik, sans-serif;
+        font-size:2rem;
+
+    }
+
+    .instrumentos-info {
+        width:50%;
+        padding-left:4rem;
+        p {
+            font-family: Rubik, sans-serif;
+        }
+
+        ul {
+
+            padding-top:.5rem;
+
+            
+
+            li {
+                list-style: none;
+                display: inline-block;
+                a{
+                    font-family: Rubik, sans-serif;
+                    text-decoration: none;
+                    font-weight: bold;
+                    padding:0 .15rem;
+                }
+                a:visited,
+                a:active {
+                    color:#000;
+                   
+                }
+                a:hover {
+                    color:$cyan;
+                }
+            }
+        }
+    }
+}
+
+/* horarios */
+
+
+.section-horarios {
+    width:80%;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom:2rem;
+
+    padding:5rem;
+
+    border:thin solid #ccc;
+    border-radius: .5rem;
+  
+
+    .instrumentos-title {
+        width:50%;
+        border-left:2px solid #000;
+        font-family: Rubik, sans-serif;
+        font-size:2rem;
+
+    }
+
+    .instrumentos-info {
+        width:50%;
+        padding-right:4rem;
+        p {
+            font-family: Rubik, sans-serif;
+        }
+
+        ul {
+
+            padding-top:.5rem;
+
+            
+
+            li {
+                list-style: none;
+
+                a{
+                    font-family: Rubik, sans-serif;
+                    text-decoration: none;
+                    font-weight: bold;
+                    padding:0 .15rem;
+                }
+                a:visited,
+                a:active {
+                    color:#000;
+                   
+                }
+                a:hover {
+                    color:$cyan;
+                }
+            }
+        }
+    }
+}
+
+/* decide */
+
+.section-decide {
+    width:80%;
+    margin:0 auto;
+    margin-bottom:8rem;
+
+
+    .decide {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+
+        margin:0 auto;
+        width:800px;
+        height:300px;
+        background-color: #21548a; 
+        border-radius: 2rem;
+
+        h3 {
+            font-family: Rubik, sans-serif;
+            color:#fff;
+            font-size:1.5rem;
+            margin-bottom:2rem;
+        }
+
+        a{
+            font-family: Rubik, sans-serif;
+            text-decoration: none;
+            font-weight: bold;
+            padding:1rem;
+            border-radius: .8rem;
+            background-color: rgba(233, 112, 56, 0.856);
+
+        }
+        a:visited,
+        a:active {
+            color:#fff;
+           
+        }
+
+    }
+}

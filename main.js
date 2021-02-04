@@ -11,28 +11,29 @@ app.use(express.static(__dirname + "/public"))
 
 app.get('/', (req, res) => {
     res.render("index", {
-        titulo : 'Índice'
+        title : 'Soy René Lozano, músico y docente profesional dedicado a la enseñanza de instrumentos de cuerda',
+        subtitle : "Mis conocimientos están a tu disposición para convertirte en un futuro gran músico"
     })
 })
 
 
-app.get('/milco', (req, res) => {
-    res.render("milco", {
-        titulo : 'MILCO ventas de Café'
+app.get('/contacto', (req, res) => {
+    res.render("contacto", {
+        titulo : 'Contáctanos'
     })
 })
 
 
-app.get('/servicios', (req, res) => {
-    res.render("servicios", {
-        titulo: "Servicios"
+app.get('/nosotros', (req, res) => {
+    res.render("nosotros", {
+        titulo: "Nosotros"
     })
 })
 
 
 app.use((req, res, next) => {
     res.status(404).render("404", {
-        titulo : "<b>Página 404 no moleste al animalito</b>",
+        titulo : "Error 404 no se ha encontrado el recurso solicitado.<br> No moleste al animalito",
         imagen : "https://placeimg.com/200/200/animals"
     })
 })

@@ -1,16 +1,18 @@
-$cyan : rgb(168, 205, 219); 
-
-@import 'layout';
-@import 'header';
-@import 'footer';
-@import 'main';
-
-
-
-
+$cyan : #589feb; 
+$grey : rgb(112, 116, 119);
 * {
-
+    margin:0;
+    padding:0;
     box-sizing: border-box;
     scroll-behavior: smooth;
     font-family: 'Open sans';
 }
+
+@import 'normalize';
+@import 'layout';
+@import 'footer';
+@import 'main';$grey : rgb(112, 116, 119);
+@import 'index';
+@import 'header';
+
+
